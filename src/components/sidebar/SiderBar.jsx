@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ThemeToggle from "../../ui/ThemeToggle";
 import { useTheme } from "../../theme/ThemeContext";
-import styles from "./Sidebar.module.css";
+import styles from "./SideBar.module.css";
 import Logo from '../../ui/img/Logo.svg';
 import  home from '../../ui/img/icons/home-2.svg';
 import team from '../../ui/img/icons/profile-2user.svg';
