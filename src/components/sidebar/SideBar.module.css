@@ -1,0 +1,145 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #f8faff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  transition: width 0.3s ease, padding 0.3s ease;
+}
+
+.collapsed {
+  width: 0px;
+  padding: 10px 10px;
+}
+
+.collapsed .logoText {
+  display: none;
+}
+
+.collapsed .navItem {
+  text-align: center;
+  padding: 10px;
+}
+
+.dark {
+  background: #121212;
+  color: #fff;
+}
+
+.light {
+  background: #f8faff;
+  color: #333;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logoIcon {
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(45deg, #6c63ff, #a29bfe);
+  border-radius: 50%;
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.navItem {
+  font-size: 16px;
+  color: #555;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+
+
+}
+.navItem span{
+    margin-left: 10px;
+}
+
+.navItem:hover {
+  background: #e0e7ff;
+background: #7364DB;
+
+}
+
+.collapseButton {
+  position: absolute;
+  top: 20px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+background: #7364DB;
+
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.collapseButton:hover {
+  background: #7364DB;
+
+}
+
+.collapsedButton {
+  transform: rotate(180deg);
+}
+
+.themeToggle {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+}
+.dark {
+  background: #000; 
+  color: #fff; 
+}
+
+.light {
+  background: #f8faff; 
+  color: #333; 
+}

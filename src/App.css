@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+height: 100vh;
+
+}
+.app {
+  display: flex;
+  height: 100%  ;
+  background: #f8faff; 
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.app.dark {
+  background: #1f1f1f; /* Темная тема */
+  color: #ffffff;
+}
