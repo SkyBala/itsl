@@ -4,7 +4,7 @@ import styles from "./OverviewSecond.module.css";
 import wallet from "../../ui/img/icons/wallet.svg";
 import coin from "../../ui/img/icons/coin.svg";
 import check from "../../ui/img/icons/check.svg";
-import toggle from "../../ui/img/icons/toggle.svg";
+import toggle from "../../ui/img/icons/Toggle.svg";
 import graphick1 from "../../ui/img/Chart.svg";
 import graphick2 from "../../ui/img/Graphic2.svg";
 import graphick3 from "../../ui/img/Graphic3.svg";
