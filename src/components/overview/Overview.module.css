@@ -7,7 +7,6 @@
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Стили карточек */
 .card {
   background: #ffffff;
   border-radius: 12px;
@@ -54,7 +53,6 @@
   color: #7E7E8F;
 }
 
-/* Светлая тема */
 .light {
   background: #f8faff;
   color: #333;
@@ -78,7 +76,6 @@ color: #121212;
   color: #7E7E8F;
 }
 
-/* Темная тема */
 .dark {
   background: #1f1f1f;
   color: #fff;

@@ -10,7 +10,7 @@ import graphick2 from "../../ui/img/Graphic2.svg";
 import graphick3 from "../../ui/img/Graphic3.svg";
 import speed from "../../ui/img/speed.png";
 const OverviewSecond = () => {
-  const { theme } = useTheme(); // Получение текущей темы
+  const { theme } = useTheme(); 
 
   return (
     <div

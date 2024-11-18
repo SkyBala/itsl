@@ -9,7 +9,7 @@ import notification from "../../ui/img/icons/notification-bing.svg";
 import OverviewSecond from "../overview/OverviewSecond";
 
 const Dashboard = () => {
-  const [user, setUser] = useState({
+  const [user] = useState({
     avatar: Avatar,
     name: "User Name", 
   });

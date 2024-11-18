@@ -1,4 +1,4 @@
-/* Общие стили для контейнера */
+
 .productStock {
   width: 45%;
   max-width: 800px;
@@ -23,17 +23,16 @@
   color: #e5e5e5;
 }
 
-/* Заголовок */
 .title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-/* Стили для шапки таблицы */
+
 .tableHeader {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr; /* Название товара - больше места */
+  grid-template-columns: 2fr 1fr 1fr; 
   padding: 10px 20px;
   margin-bottom: 10px;
   text-align: center;
@@ -42,10 +41,9 @@
 .headerCell,
 .headerCell1 {
   font-size: 14px;
-  color: inherit; /* Зависимость от темы */
+  color: inherit;
 }
 
-/* Стили для строки таблицы */
 .tableRow {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
@@ -71,7 +69,6 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Название товара */
 .productName {
   display: flex;
   align-items: center;
@@ -88,7 +85,6 @@
   color: #ffffff;
 }
 
-/* Аватар */
 .avatar {
   display: flex;
   justify-content: center;
